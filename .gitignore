@@ -1,0 +1,20 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.env
+*.local.php
+# Dependencies and generated files
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.expo/
+.idea/
+.vscode/
+.DS_Store
+*.log
+coverage/
+dist/
+build/
