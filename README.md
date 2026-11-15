@@ -2,8 +2,6 @@
 
 Prototipo académico de una aplicación de bienestar emocional, con cliente móvil en React Native/Expo y una API en Node.js, Express y MySQL.
 
-Nombre original: `mental-health-app`.
-
 ## Incluye
 
 - Registro e inicio de sesión con JWT.
@@ -26,6 +24,6 @@ La clave de OpenAI es opcional para inspeccionar el código; el servicio remoto 
 
 ## Estado y alcance
 
-Prototipo de portafolio, sin validación clínica. Algunas pantallas y funciones son experimentales: el router del chatbot está incluido pero no está montado en `backend/server.js`, y la recuperación de contraseña contiene respuestas provisionales. Se conservan variantes `_NEW` y `_SIMPLE` de las pantallas originales para revisión. No se ha verificado el flujo completo móvil/API/base de datos.
+Aplicación en desarrollo, sin validación clínica. Algunas pantallas y funciones son experimentales: el router del chatbot está incluido pero no está montado en `backend/server.js`, y la recuperación de contraseña contiene respuestas provisionales. Las variantes `_NEW` y `_SIMPLE` corresponden a versiones alternativas de las pantallas. La integración completa entre móvil, API y base de datos está pendiente de validación.
 
-El código conserva los nombres originales de tablas y la base `mental_health_db` para evitar romper sus consultas.
+La base de datos se llama `mental_health_db`.
